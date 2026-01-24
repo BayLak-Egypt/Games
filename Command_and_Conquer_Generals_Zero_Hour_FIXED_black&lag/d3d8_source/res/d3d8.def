@@ -1,5 +1,0 @@
-EXPORTS
-	ValidatePixelShader
-	ValidateVertexShader
-	DebugSetMute
-	Direct3DCreate8
