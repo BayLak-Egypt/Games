@@ -1,0 +1,50 @@
+Description of the use of the huddraw set of script commands
+------------------------------------------------------------
+
+The huddraw script commands allow you to draw up to 256 different graphic icons on the player's hud.
+The element to adjust with each command is specified by an index number in the range of 0 to 255.
+They currently broadcast to all players, but that could be changed if the need arises.
+
+Commands Summary
+----------------
+
+huddraw_shader <index> <shader name>
+	This sets the shader to use for a particular huddraw element.
+	
+huddraw_align <index> <horizontal> <vertical>
+	This sets the alignment of the huddraw element. 
+	Valid values for horizontal alignment are "left", "center", and "right".
+	Valid values for vertical alignment are "top", "center", and "bottom".
+
+	
+huddraw_rect <index> <X position> <Y position> <width> <height>
+	This sets the position and size of the huddraw element. X and Y specify the position of
+	the upper left corner position. Higher values of X move it to the right, and higher
+	values of Y move it down. When you set the alignment, the XY position specified	is 
+	relative to that alignment. For example, if you align it to the right edge of the hud,
+	the X position should be less than zero so that it the upper left corner will be brough
+	back to the left onto the screen.
+	
+huddraw_virtualsize <index> <virtual>
+	This let's you set the huddraw element's size and position according to a virtual screen
+	resolution of 640x480. What this means is that it lets you treat the hud like it's always
+	at 640x480, and it will be properly resized and positioned according to the actual resolution.
+	
+huddraw_color <index> <red> <green> <blue>
+	This set the color of the huddraw element. Each color channel should be between 0 and 1.
+	
+huddraw_alpha <index> <alpha>
+	This set the alpha of the huddraw element. It should be set between 0 and 1. This is also
+	used to turn off a huddraw element that is no longer wanted by setting the alpha to 0.
+
+huddraw_string <index> <string>
+	This sets the huddraw element to display a string instead of a shader graphic. The size
+	of the font can not be adjusted, but the color and alpha settings do affect the text.
+	The width and height parameters of huddraw_rect are only used for alignment centering,
+	Not for setting the size of the string.
+	
+huddraw_font <index> <fontname>
+	This sets the font for a string displaying huddraw element to use. The names of available
+	font can be gotten from the game/main/fonts folder. The file names of the .ritualfont files
+	in there are the names used for the fonts.
+	

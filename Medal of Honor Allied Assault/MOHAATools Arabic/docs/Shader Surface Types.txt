@@ -1,0 +1,26 @@
+In Game Surface Types
+
+Note: The in game surface types are not the same as the search keywords material types.
+
+The surface type for a shader is specified via a "surfaceparm type" line, where type is the surface type to use.
+
+Example:
+	surfaceparm wood
+	
+Note that only one surface type can be used at a time, and so only one should be specified in a shader.
+
+Here's a list of each of the surface types that can be specified:
+	wood	- wooden surface
+	metal	- metal surface (like metal plating)
+	stone	- stone or rock surface
+	dirt	- dirt surface
+	grill	- metal grill surface
+	grass	- grass covered surface
+	mud		- muddy or squishy sounding surface
+	puddle	- water puddle surface
+	glass	- glass surface
+	gravel	- rocky gravel surface
+	sand	- sandy surface
+	foliage	- tree tops, bushes, or leaf covered surface
+	snow	- snow covered surface
+	carpet	- carpeted surface
