@@ -1,0 +1,111 @@
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 126 100 150 ) ( 2 100 150 ) ( 2 76 150 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 2 76 154 ) ( 2 100 154 ) ( 126 100 154 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 2 80 154 ) ( 126 80 154 ) ( 126 80 150 ) das_boot/officer_quarter 0 -6 0.00 1 1 0 16384 0 
+( 126 76 154 ) ( 126 100 154 ) ( 126 100 150 ) das_boot/officer_quarter 0 -6 0.00 1 1 0 16384 0 
+( 126 100 154 ) ( 2 100 154 ) ( 2 100 150 ) das_boot/officer_quarter 0 -6 0.00 1 1 0 16384 0 
+( 2 100 154 ) ( 2 76 154 ) ( 2 76 150 ) das_boot/officer_quarter 0 -6 0.00 1 1 0 16384 0 
+}
+// brush 1
+{
+( 126 68 118 ) ( 2 68 118 ) ( 2 64 118 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 2 64 122 ) ( 2 68 122 ) ( 126 68 122 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 2 64 122 ) ( 126 64 122 ) ( 126 64 118 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 126 64 122 ) ( 126 68 122 ) ( 126 68 118 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 126 100 124 ) ( 2 100 124 ) ( 2 100 120 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 2 68 122 ) ( 2 64 122 ) ( 2 64 118 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+}
+// brush 2
+{
+( 126 68 64 ) ( 2 68 64 ) ( 2 64 64 ) das_boot/officer_quarter 0 -36 0.00 1 1 0 16384 0 
+( 2 64 118 ) ( 2 68 118 ) ( 126 68 118 ) das_boot/officer_quarter 0 -36 0.00 1 1 0 16384 0 
+( 2 64 114 ) ( 126 64 114 ) ( 126 64 64 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 126 64 114 ) ( 126 68 114 ) ( 126 68 64 ) das_boot/officer_quarter 36 0 0.00 1 1 0 16384 0 
+( 126 68 114 ) ( 2 68 114 ) ( 2 68 64 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 2 68 114 ) ( 2 64 114 ) ( 2 64 64 ) das_boot/officer_quarter 36 0 0.00 1 1 0 16384 0 
+}
+// brush 3
+{
+( 128 102 64 ) ( 78 102 64 ) ( 78 66 64 ) das_boot/officer_quarter 0 2 0.00 1 1 0 16384 0 
+( 0 66 192 ) ( 0 102 192 ) ( 50 102 192 ) das_boot/officer_quarter 0 2 0.00 1 1 0 16384 0 
+( 0 100 186 ) ( 50 100 186 ) ( 50 100 142 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 130 66 108 ) ( 130 102 108 ) ( 130 102 64 ) das_boot/officer_quarter -2 0 0.00 1 1 0 16384 0 
+( 50 104 192 ) ( 0 104 192 ) ( 0 104 148 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( -2 102 192 ) ( -2 66 192 ) ( -2 66 148 ) das_boot/officer_quarter -2 0 0.00 1 1 0 16384 0 
+}
+// brush 4
+{
+( 126 100 188 ) ( 2 100 188 ) ( 2 64 188 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 2 64 192 ) ( 2 100 192 ) ( 126 100 192 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 2 64 192 ) ( 126 64 192 ) ( 126 64 190 ) das_boot/officer_quarter 0 -2 0.00 1 1 0 16384 0 
+( 126 64 190 ) ( 126 100 190 ) ( 126 100 188 ) das_boot/officer_quarter 0 -2 0.00 1 1 0 16384 0 
+( 126 100 190 ) ( 2 100 190 ) ( 2 100 188 ) das_boot/officer_quarter 0 -2 0.00 1 1 0 16384 0 
+( 2 100 190 ) ( 2 64 190 ) ( 2 64 188 ) das_boot/officer_quarter 0 -2 0.00 1 1 0 16384 0 
+}
+// brush 5
+{
+( 796 112 64 ) ( 158 112 64 ) ( 158 64 64 ) das_boot/officer_quarter 2 0 0.00 1 1 0 16384 0 
+( 160 64 192 ) ( 160 112 192 ) ( 798 112 192 ) das_boot/officer_quarter 2 0 0.00 1 1 0 16384 0 
+( 158 64 92 ) ( 796 64 92 ) ( 796 64 64 ) das_boot/officer_quarter 2 0 0.00 1 1 0 16384 0 
+( 130 68 94 ) ( 130 116 94 ) ( 130 116 66 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 800 100 90 ) ( 162 100 90 ) ( 162 100 62 ) das_boot/officer_quarter 2 0 0.00 1 1 0 16384 0 
+( 126 112 176 ) ( 126 64 176 ) ( 126 64 148 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+}
+// brush 6
+{
+( 668 112 64 ) ( 30 112 64 ) ( 30 64 64 ) das_boot/officer_quarter 2 0 0.00 1 1 0 16384 0 
+( 32 64 192 ) ( 32 112 192 ) ( 670 112 192 ) das_boot/officer_quarter 2 0 0.00 1 1 0 16384 0 
+( 30 64 92 ) ( 668 64 92 ) ( 668 64 64 ) das_boot/officer_quarter 2 0 0.00 1 1 0 16384 0 
+( 2 68 94 ) ( 2 116 94 ) ( 2 116 66 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+( 672 100 90 ) ( 34 100 90 ) ( 34 100 62 ) das_boot/officer_quarter 2 0 0.00 1 1 0 16384 0 
+( -2 112 176 ) ( -2 64 176 ) ( -2 64 148 ) das_boot/officer_quarter 0 0 0.00 1 1 0 16384 0 
+}
+}
+// entity 1
+{
+"angles" "0.00 -90.00 0.00"
+"origin" "64.00 84.00 122.00"
+"testanim" "idle"
+"model" "miscobj/radio_civilian.tik"
+"scale" "1.0"
+"classname" "static_decor_radio-civilian"
+}
+// entity 2
+{
+"angles" "0 300 0"
+"origin" "112.81 90.28 154.00"
+"testanim" "idle"
+"model" "static/vehicle_bmwbike.tik"
+"scale" "0.1"
+"classname" "static_vehicle_german_bmwbike"
+}
+// entity 3
+{
+"angles" "0 300 0"
+"origin" "86.62 90.36 154.00"
+"testanim" "idle"
+"model" "static/vehicle_gmctruck.tik"
+"scale" "0.05"
+"classname" "static_vehicle_allied_gmctruck"
+}
+// entity 4
+{
+"angles" "0 300 0"
+"origin" "55.34 87.11 154.00"
+"testanim" "idle"
+"model" "static/vehicle_c47.tik"
+"scale" "0.015"
+"classname" "static_vehicle_allied_airplane-c47"
+}
+// entity 5
+{
+"angles" "0 300 0"
+"origin" "31.37 83.21 154.00"
+"testanim" "idle"
+"model" "static/vehicle_shermantank.tik"
+"scale" "0.05"
+"classname" "static_vehicle_allied_tank-sherman"
+}

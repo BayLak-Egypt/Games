@@ -1,0 +1,31 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x                                                                                   x
+x	JJJJJJ	UU  UU  DDDDD 	GGGGGG	EEEEEE	888888	 111  	777777              x
+X	  JJ    UU  UU  D    D	GG      EE      8    8    11         7              x
+X         JJ    UU  UU  D    D  GG      EE      8    8    11         7              X
+X         JJ    UU  UU  D    D  GG      EEEE    888888    11         7              X
+X         JJ    UU  UU  D    D  GG GGG  EE      8    8    11         7              X
+X         JJ    UU  UU  D    D  GG  GG  EE      8    8    11         7              X
+X       JJJJ    UUUUUU  DDDDD   GGGGGG	EEEEEE  888888	111111       7              X
+X                                                                                   X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Barrel prefabs:-
+ 
+5 new barrel textures included place jdbarrels.pk3 into mohaa main folder
+place the barrels prefab folder into mohaa maps dm folder.
+
+radiant:-
+in radiant goto file/load prefab and locate barrel prefabs folder and click
+on each barrel to load.
+
+(pack also includes mohaa standard texture barrels aswell)
+
+the use of these barrels are free to use plz include this readme within your map pk3 file
+
+many thanks
+
+judge817©
+
+
+ http://www.mods-r-us.net/
