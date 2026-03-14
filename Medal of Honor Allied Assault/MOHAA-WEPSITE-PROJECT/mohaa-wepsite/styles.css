@@ -1,0 +1,14 @@
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery img {
+    max-width: 200px;
+    margin: 10px;
+}

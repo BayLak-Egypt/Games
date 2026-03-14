@@ -1,0 +1,4 @@
+map: 
+
+name: aess score: -1
+name: lol score: -1

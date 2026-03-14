@@ -1,0 +1,79 @@
+<?php
+
+function sendRconCommand($command, $serverIp, $password, $serverPort)
+{
+    $socket = fsockopen("udp://$serverIp", (int)$serverPort, $errno, $errstr, 2);
+    
+    if (!$socket) {
+        return "Network error: $errstr ($errno)";
+    }
+
+    $rconCommand = "\xFF\xFF\xFF\xFF\x02rcon $password $command";
+    
+    fwrite($socket, $rconCommand);
+
+    stream_set_timeout($socket, 1);
+    $response = fread($socket, 4096);
+
+    fclose($socket);
+
+    return $response;
+}
+
+function isValidResponse($response)
+{
+    // ?????? ??? ??? ??? ???? ????? ??? ?????? ??????
+    return strpos($response, 'map:') !== false && strpos($response, 'num score ping name') !== false;
+}
+
+function savePlayerDataToFile($response)
+{
+    $filePath = 'player_data.txt';
+
+    if (file_put_contents($filePath, $response) !== false) {
+        echo "Player data saved to: $filePath<br>";
+    } else {
+        echo "Error saving data.<br>";
+    }
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $ip = $_POST['ip'];
+    $port = $_POST['port'];
+    
+    echo "Checking password...<br>";
+    $command = "status";
+    $password = "test123"; // ???? ?????? ???????
+
+    $response = sendRconCommand($command, $ip, $password, $port);
+
+    if (isValidResponse($response)) {
+        echo "Valid RCON password found: $password<br>";
+        savePlayerDataToFile($response);
+    } elseif (strpos($response, "Bad rconpassword") !== false) {
+        echo "Invalid RCON password: $password<br>";
+    } else {
+        echo "Unexpected response.<br>";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCON Checker</title>
+</head>
+<body>
+    <form method="post">
+        <label for="ip">Enter the game server IP:</label><br>
+        <input type="text" id="ip" name="ip" required><br><br>
+
+        <label for="port">Enter the game server port:</label><br>
+        <input type="text" id="port" name="port" required><br><br>
+
+        <input type="submit" value="Check RCON">
+    </form>
+</body>
+</html>
