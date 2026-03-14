@@ -1,0 +1,59 @@
+Usage of texture:
+wall - vertical wall textures, natural or man-made
+floor - floor textures, either natural(ground) or man-made
+ceiling - anything that was made to be used as a ceiling
+roof - rooftop textures for buildings
+door - any door texture, including gates
+window - any window texture, including the window frames
+sky - sky's....DUHHHHHH ;)p
+signs - anything that has verbage on it, posters, signs
+road - road, paths and trails
+pipe - pipe textures, valves for pipes, also includes wires
+flat - anything that produces an even, non-bordered pattern in all directions
+special - made for brush objects ONLY (i.e. crates, boxcars)
+indoor - pictures, misc household items
+trim - all trim, including ibeams, endcaps, etc...
+masked - any texture that has alpha'd areas (like handrails, grates, etc...)
+damaged - anything that's been damaged (has blast marks, burns, etc...)
+utility - textures like nodraw, caulk, trigger, etc.... ONLY!
+terrain - only put this on textures made specifically for the terrain system
+panel - paneled type textures (like the library ones)
+light - light emmiting textures
+
+Material types:
+metal - all types of metal
+rusted - rusted, weathered metal
+corrugated - corrugated materials
+gravel - gravel textures
+sand - sand textures
+rock - naturally occuring rock formations (walls, floors, etc...)
+stone - man-altered rocks like stone walls, cobblestone streets, also tile
+brick - brick textures
+concrete - concrete textures
+wood - wood textured
+plaster - plaster textures
+carpet - carpet and cloth type textures
+liquid - all liquids, including oceans, rivers, puddles, etc....
+river - river textures, or other flowing water types
+ocean - ocean textures
+glass - glass textures
+tudor - used in french/german towns with plaster sandwiched between wooden beams
+natural - non man-made materials
+dirt - all dirt textures, including transitional textures with dirt
+grass - all grass texture, including transitional textures with grass
+tree - textures relating to trees
+bush - textures relating to bushes
+folliage - vines, forest canopy, underbrush
+snow - if the texture has any snow or ice on it
+mud - if the texture is, or has mud on it
+
+Level Reference: - meaning the texture was made for a particular mission
+m1 - North Africa
+m2 - D-Day, Normandy, Nebelwerfer
+m3 - OSS mission in France, blow train rails, manor house
+m4 - Brest France, Artillery missions, sniper hunt
+m5 - snow forrest, snow town/train station, schmertzen
+m6 - Hunt artillery, Ramagen
+m7 - U-Boats in Norway
+intro - opening cinematic
+ending - ending cinematic
