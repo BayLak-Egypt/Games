@@ -1,0 +1,5 @@
+1.  Unzip to the location of your choice.
+
+2.  Ensure that your paths (basepath, mapspath, autosave) in the project properly point to your MOHAA installation.  This information is stored in the qe4 file.  You can set these from File->Project Settings.
+
+3.  Copy entdefs.pk3 to your MOHAA/main directory.
