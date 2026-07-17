@@ -45,4 +45,11 @@ A dedicated menu containing classic hacks and tweaks, such as **No Recoil**, **T
 | **Refresh** | Fully refresh the server list. |
 | **Setting** | Customize themes, language, and more. |
 
+
+## 🚀 How to Run
+1. Clone the repository or download the source code.
+2. Ensure the tool is placed in the game directory along with **`mohaa.exe`**.
+3. Run the tool: **mohaa_server_tool.exe**
+
+
 > **⚠️ LEGAL DISCLAIMER:** This tool is provided for **educational and administrative purposes only**. The developer is **not responsible** for any misuse, illegal activities, or violations of server policies resulting from the use of this tool. Use it strictly on servers you own or have explicit permission to manage. By using this software, you agree that you are solely responsible for your actions.
