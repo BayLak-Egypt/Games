@@ -33,7 +33,3 @@ A dedicated menu containing classic hacks and tweaks, such as **No Recoil**, **T
 | **Blocked** | Block specific IPs and move them to a blacklist. |
 | **Refresh** | Fully refresh the server list. |
 | **Setting** | Customize themes, language, and more. |
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/795fadde-e9bf-41a0-a894-5bd3029f75bd" alt="Tool Features" width="700" />
-</p>
